@@ -1,0 +1,261 @@
+/* GLOBALS */
+html {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+/* FONTS */
+@font-face {
+    font-family: "Anton-Regular";
+    src: url(../fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+/* CUSTOM PROPERTIES */
+:root {
+    --primaryColor: #e22413;
+    --secondaryColor: #e2e2e1;
+}
+
+/* HEADER */
+.primaryHeader {
+    width: 100%;
+}
+
+.primaryHeader h1 {
+    display: none;
+}
+
+.primaryHeader figure {
+    width: 15rem;
+    margin: auto;
+}
+
+.primaryHeader nav .btnShowMenu {
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+}
+
+.primaryHeader nav .btnShowMenu .fas {
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+}
+
+.primaryHeader nav .menuA {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    font-family: "Raleway-ExtraBold";
+    color: var(--primaryColor);
+    border-bottom-left-radius: 1rem;
+}
+
+.primaryHeader nav .menuA a {
+    color: var(--secondaryColor);
+    text-decoration: none;
+    text-align: left;
+    padding: 0.5rem;
+    display: none;
+}
+
+.primaryHeader nav .menuA a:hover {
+    background-color: var(--primaryColor);
+}
+
+.primaryHeader nav .menuA img {
+    width: 1.5rem;
+}
+
+.primaryHeader nav .menuA span a {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+.primaryHeader nav .menuA span a:hover {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+.primaryHeader nav .menuA.showMenu a {
+    display: block;
+}
+
+.primaryHeader nav .menuB {
+    display: none;
+}
+
+/* MAIN */
+.primaryMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeA,
+.homeB,
+.homeC {
+    display: none;
+}
+
+.homeA,
+.homeAmf {
+    width: 100%;
+}
+
+.homeAmf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeAmf figure {
+    width: 100%;
+    margin: 0;
+}
+
+.homeB,
+.homeBmf {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Anton-Regular";
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-bottom: 0.5rem solid #e22413;
+}
+
+.homeB a,
+.homeBmf a {
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+.homeB a:hover,
+.homeBmf a:hover {
+    background-color: var(--primaryColor);
+}
+
+.homeC,
+.homeCmf {
+    width: 4rem;
+    height: 4rem;
+    border: 0.1rem solid #ffffff;
+    font-family: "Anton-Regular";
+    font-size: 0.8rem;
+    text-align: center;
+    float: right;
+    margin-right: 4rem;
+}
+
+.homeC a,
+.homeCmf a {
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+.homeC a:hover,
+.homeCmf a:hover {
+    background-color: var(--primaryColor);
+}
+.fzf {
+    font-family: "Anton-Regular";
+    font-size: 1rem;
+    text-align: center;
+}
+.page {
+    
+}
+/* ASIDE */
+
+/* FOOTER */
+.primaryFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 1rem;
+    text-align: center;
+}
+
+.primaryFooter .fab {
+    margin: 0 0.5rem;
+    color: var(--secondaryColor);
+    font-size: 2rem;
+}
+
+.primaryFooter a {
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+.primaryFooter .fab:hover,
+.primaryFooter a:hover {
+    color: var(--primaryColor);
+}
+
+/* WEBMASTER */
+.webmaster {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+}
+
+.webmaster p {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #9f9f9f;
+}
+
+.webmaster a {
+    color: #387ca6;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.webmaster a:hover {
+    border-bottom: 1px solid #04a5f0;
+}

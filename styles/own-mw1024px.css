@@ -1,0 +1,51 @@
+@media screen and (min-width: 1024px) {
+
+    /* HEADER */
+    .primaryHeader figure {
+        margin-left: 2rem;
+    }
+
+    .primaryHeader nav .menuB {
+        font-size: 2rem;
+    }
+
+    .primaryHeader nav .menuB a {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    .primaryHeader nav .menuB img {
+        width: 2rem;
+    }
+
+    .primaryHeader nav .menuB span {
+        font-size: 1.2rem;
+    }
+
+    .primaryHeader nav .menuB span a {
+        padding: 1rem 2rem;
+    }
+
+    /* MAIN */
+    .homeA {
+        height: 64rem;
+        padding-top: 32rem;
+    }
+
+    .homeB {
+        width: 26rem;
+        height: 22rem;
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+
+    .homeC {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    /* WEBMASTER */
+    .webmaster p {
+        font-size: 11.5px;
+    }
+}
