@@ -27,7 +27,7 @@
     <header class="primaryHeader">
         <h1>Fundación: Enfócate con propósito</h1>
         <figure>
-            <a href=""><img src="images/enfocate-con-proposito.png" alt="ENFÓCATE CON PROPÓSITO"></a>
+            <a href="http://www.enfocateconproposito.org"><img src="images/enfocate-con-proposito.png" alt="ENFÓCATE CON PROPÓSITO"></a>
         </figure>
         <nav>
             <button onclick="showMenu()" class="btnShowMenu"><i class="fas fa-hamburger"></i></button>
@@ -36,18 +36,18 @@
                 <a href="quienes-somos.php">¿Quiénes Somos?</a>
                 <a href="que-hacemos.php">¿Qué Hacemos?</a>
                 <a href="vida.php">Vida</a>
-                <a href="">Noticias</a>
-                <a href=""><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>
-                <a href="">Donaciones</a>
+                <a href="noticias.php">Noticias</a>
+                <a href="developing.php"><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>
+                <!--<a href="">Donaciones</a>-->
             </div>
             <div class="menuB">
                 <a href="index.php">Inicio</a> |
                 <a href="quienes-somos.php">¿Quiénes Somos?</a> |
                 <a href="que-hacemos.php">¿Qué Hacemos?</a> |
                 <a href="vida.php">Vida</a> |
-                <a href="">Noticias</a> |
-                <a href=""><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>
-                <span><a href="">Donaciones</a></span>
+                <a href="noticias.php">Noticias</a> |
+                <a href="developing.php"><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>
+                <!--<span><a href="">Donaciones</a></span>-->
             </div>
         </nav>
     </header>

@@ -23,6 +23,34 @@
         margin-left: 6rem;
     }
 
+    .secondaryMain section {
+        padding-top: 2rem;
+    }
+
+    .secondaryMain p {
+        font-size: 1.3rem;
+        letter-spacing: 1.3px;
+        line-height: 1.3;
+    }
+
+    /* ABOUT US */
+    /* WHAT WE DO */
+    .what-we-do .flex-container figure {
+        width: 70%;
+    }
+
+    .what-we-do p {
+        font-size: 1.8rem;
+    }
+
+    /* LIFE */
+    /* NEWS */
+    /* DEVELOPING */
+    .developing {
+        padding: 12rem;
+        font-size: 1.6rem;
+    }
+
     /* FOOTER */
 
     .primaryFooter {

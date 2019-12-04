@@ -1,4 +1,27 @@
 @media screen and (min-width: 480px) {
+    .secondaryMain p {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+
+    /* ABOUT US */
+    /* WHAT WE DO */
+    .what-we-do .flex-container figure {
+        width: 90%;
+    }
+
+    .what-we-do p {
+        font-size: 1.5rem;
+    }
+
+    /* LIFE */
+    /* NEWS */
+    /* DEVELOPING */
+    .developing {
+        padding: 4rem;
+        font-size: 1.3rem;
+    }
 
     /* WEBMASTER */
     .webmaster p {

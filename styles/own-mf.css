@@ -52,9 +52,7 @@ img {
     text-decoration: underline;
     text-decoration-color: var(--primaryColor);
 }
-.flex-container {
-    display: flex;
-}
+
 /* HEADER */
 .primaryHeader {
     width: 100%;
@@ -209,47 +207,71 @@ img {
     text-align: center;
 }
 
-/* ABOUT US */
-.about-us {
+.secondaryMain {
     width: 100%;
 }
-.about-us .title {
-    text-align: left;
-}
-.about-us section,
-.about-us figure {
+
+.secondaryMain section,
+.secondaryMain figure {
     width: 100%;
     margin: 0;
 }
-.about-us section {
-    padding: 1rem;
+
+.secondaryMain section {
+    padding: 0rem 1rem;
 }
-.about-us p {
+
+.secondaryMain p {
     font-family: "Raleway-Regular";
-    font-size: 1.1rem;
-    letter-spacing: 1px;
-    line-height: 1;
+    font-size: 1rem;
 }
-.about-us figure {
+
+.secondaryMain figure {
     padding: 0;
 }
+
+/* ABOUT US */
+.about-us .title {
+    text-align: left;
+}
+
 /* WHAT WE DO */
-.what-we-do {
-    width: 100%;
-}
 .what-we-do .flex-container {
+    display: flex;
     flex-direction: column;
+    text-align: center;
 }
+
+.what-we-do .flex-container figure {
+    width: 95%;
+}
+
 .what-we-do p {
     font-family: "Raleway-ExtraBold";
-    font-size: 2rem;
-    text-align: center;
+    font-size: 1.4rem;
     color: #fff;
     text-shadow: 2px 2px 4px #000, 4px 4px 4px #000;
 }
+
 .what-we-do a {
     text-decoration: none;
 }
+
+.what-we-do a:hover {
+    opacity: 0.5;
+}
+
+/* LIFE */
+/* NEWS */
+/* DEVELOPING */
+.developing {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Anton-Regular";
+    font-size: 1.2rem;
+}
+
 /* ASIDE */
 
 /* FOOTER */

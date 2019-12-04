@@ -1,8 +1,10 @@
 @media screen and (min-width: 1024px) {
+
     /* GENERAL */
     .title {
         font-size: 3rem;
     }
+
     /* HEADER */
     .primaryHeader figure {
         margin-left: 2rem;
@@ -47,35 +49,50 @@
         height: 5rem;
     }
 
-    /* ABOUT US */
-    .about-us {
-        width: 100%;
-    }
-    .about-us section {
+    .secondaryMain section,
+    .secondaryMain figure {
         width: 50%;
-        float: left;
-    }
-    .about-us figure {
-        width: 50%;
-        float: right;
-    }
-    .about-us section {
-        padding: 4rem 1rem 0 4rem;
-    }
-    .about-us p {
-        font-size: 1.4rem;
-        letter-spacing: 2px;
-        line-height: 2;
     }
 
+    .secondaryMain section {
+        float: left;
+        padding-top: 4rem;
+    }
+
+    .secondaryMain figure {
+        float: right;
+    }
+
+    .secondaryMain p {
+        font-size: 1.2rem;
+        letter-spacing: 1.2px;
+        line-height: 1.2;
+    }
+
+    /* ABOUT US */
     /* WHAT WE DO */
-    .what-we-do .title {
-        text-align: right;
-        margin-right: 8rem;
+    .what-we-do .flex-container figure {
+        width: 75%;
     }
-    .what-we-do .flex-container {
-        flex-direction: row;
+
+    .what-we-do p {
+        font-size: 1.7rem;
+        text-shadow: 4px 4px 8px #000, 8px 8px 8px #000;
     }
+
+    /* LIFE */
+    .life figure,
+    .news figure {
+        padding: 4rem;
+    }
+
+    /* NEWS */
+    /* DEVELOPING */
+    .developing {
+        padding: 10rem;
+        font-size: 1.5rem;
+    }
+
     /* WEBMASTER */
     .webmaster p {
         font-size: 11.5px;

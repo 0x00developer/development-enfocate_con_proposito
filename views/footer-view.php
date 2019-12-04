@@ -15,7 +15,7 @@
         <p>Calle 54 # 34 - 05 Sur Bogotá, Colombia</p>
     </address>
     <div>
-        <p><a href="">Pólitica de Privacidad</a></p>
+        <p><a href="developing.php">Pólitica de Privacidad</a></p>
     </div>
 </footer>
 <div class="webmaster">

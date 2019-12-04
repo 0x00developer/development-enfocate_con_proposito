@@ -1,10 +1,10 @@
-<main class="about-us">
+<main class="secondaryMain about-us">
         <section>
             <h2 class="title">¿quiénes somos?</h2>
             <p>Somos una organización social que tiene el
                 propósito de proteger, asistir y promocionar el
                 derecho a la vida, la integridad física, la salud, la
-                educacion, la cultura y la recreación de los niños,
+                educación, la cultura y la recreación de los niños,
                 niñas, adolescentes y jóvenes, por medio de la
                 promoción, impulso y ejecución de programas y
                 proyectos que orientan a las nuevas generaciones
