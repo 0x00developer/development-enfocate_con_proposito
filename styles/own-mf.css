@@ -39,6 +39,22 @@ img {
     --secondaryColor: #e2e2e1;
 }
 
+/* GENERAL */
+.hide {
+    display: none;
+}
+
+.title {
+    text-transform: capitalize;
+    font-family: "Raleway-ExtraBold";
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--primaryColor);
+}
+.flex-container {
+    display: flex;
+}
 /* HEADER */
 .primaryHeader {
     width: 100%;
@@ -186,13 +202,53 @@ img {
 .homeCmf a:hover {
     background-color: var(--primaryColor);
 }
+
 .fzf {
     font-family: "Anton-Regular";
     font-size: 1rem;
     text-align: center;
 }
-.page {
-    
+
+/* ABOUT US */
+.about-us {
+    width: 100%;
+}
+.about-us .title {
+    text-align: left;
+}
+.about-us section,
+.about-us figure {
+    width: 100%;
+    margin: 0;
+}
+.about-us section {
+    padding: 1rem;
+}
+.about-us p {
+    font-family: "Raleway-Regular";
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.about-us figure {
+    padding: 0;
+}
+/* WHAT WE DO */
+.what-we-do {
+    width: 100%;
+}
+.what-we-do .flex-container {
+    flex-direction: column;
+}
+.what-we-do p {
+    font-family: "Raleway-ExtraBold";
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000, 4px 4px 4px #000;
+}
+.what-we-do a {
+    text-decoration: none;
 }
 /* ASIDE */
 
