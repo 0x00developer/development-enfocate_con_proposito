@@ -1,4 +1,4 @@
-<main class="secondaryMain about-us">
+<main class="secondaryMain containerA">
         <section>
             <h2 class="title">¿quiénes somos?</h2>
             <p>Somos una organización social que tiene el

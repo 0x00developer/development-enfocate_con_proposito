@@ -1,4 +1,4 @@
-<main class="secondaryMain news">
+<main class="secondaryMain containerA">
     <section>
         <h2 class="title">noticias</h2>
         <p>La Fundación Enfócate con Propósito participó

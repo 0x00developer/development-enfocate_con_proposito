@@ -1,8 +1,8 @@
-<main class="secondaryMain what-we-do">
+<main class="secondaryMain containerC">
     <h2 class="title">¿qué hacemos?</h2>
-    <div class="flex-container">
+    <div class="what-we-do">
         <div>
-            <a href="developing.php">
+            <a href="programas-de-orientacion-y-formacion.php">
                 <figure>
                     <img src="images/programas-de-orientacion-y-formacion.png"
                         alt="Programas de orientación y formación">
@@ -11,7 +11,7 @@
             </a>
         </div>
         <div>
-            <a href="developing.php">
+            <a href="mentoria-de-suenos.php">
                 <p>Mentoría de Sueños</p>
                 <figure>
                     <img src="images/mentoria-de-suenos.png" alt="Mentoria de sueños">
@@ -19,7 +19,7 @@
             </a>
         </div>
         <div>
-            <a href="developing.php">
+            <a href="eventos-y-actividades-culturales.php">
                 <figure>
                     <img src="images/eventos-y-actividades-culturales.png" alt="Eventos y actividades culturales">
                 </figure>

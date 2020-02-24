@@ -96,21 +96,21 @@
         height: 4rem;
     }
 
-    .secondaryMain section {
-        padding: 6rem 2rem 0 2rem;
-    }
-
     .secondaryMain p {
         font-size: 1.1rem;
         letter-spacing: 1.1px;
         line-height: 1.1;
     }
 
-    .secondaryMain figure {
-        padding: 0;
+    /* CONTAINERS */
+    .containerA section,
+    .containerB section {
+        padding: 6rem 2rem 0 2rem;
     }
-
-    /* ABOUT US */
+    .containerC .title {
+        text-align: right;
+        padding-right: 2rem;
+    }
     /* LIFE */
     .life figure,
     .news figure {
@@ -118,17 +118,14 @@
     }
 
     /* WHAT WE DO */
-    .what-we-do .title {
-        text-align: right;
-        margin-right: 8rem;
-    }
 
-    .what-we-do .flex-container {
+    .what-we-do {
+        margin-top: 4rem;
         flex-direction: row;
         justify-content: space-around;
     }
 
-    .what-we-do .flex-container figure {
+    .what-we-do figure {
         width: 80%;
     }
 
@@ -136,8 +133,6 @@
         font-size: 1.6rem;
     }
 
-    /* LIFE */
-    /* NEWS */
     /* DEVELOPING */
     .developing {
         padding: 8rem;

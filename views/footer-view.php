@@ -4,7 +4,7 @@
             <a href="https://www.instagram.com/enfocateconpropositoco" target="_blank"><i
                     class="fab fa-instagram"></i></a>
             <a href="https://m.facebook.com/EnfocateConProposito/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=573153483229&text=Hola&nbsp;,&nbsp;entré&nbsp;a&nbsp;enfocateconproposito.org&nbsp;y&nbsp;decidí&nbsp;contactarte&nbsp;"
+            <a href="https://api.whatsapp.com/send?phone=573208198234&text=Hola&nbsp;,&nbsp;entré&nbsp;a&nbsp;enfocateconproposito.org&nbsp;y&nbsp;decidí&nbsp;contactarte&nbsp;"
                 target="_blank"><i class="fab fa-whatsapp"></i></a>
             <a href="https://www.youtube.com/channel/UCGaD82cfGRaHNgNSQWHV1Ug" target="_blank"><i
                     class="fab fa-youtube"></i></a>
