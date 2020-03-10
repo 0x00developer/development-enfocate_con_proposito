@@ -5,13 +5,12 @@
     </section>
     <div class="conImages">
         <figure>
-            <img src="images/sonadores-y-hacedores.jpg" alt="Imagen de soñadores y hacedores">
-            <figcaption></figcaption>
+            <a href=""><img src="images/sonadores-y-hacedores.jpg" alt="Imagen de soñadores y hacedores"></a>
+            <figcaption>Programa</figcaption>
         </figure>
         <figure>
-            <img src="images/cara-o-sello.jpg" alt="Imagen de cara o sello">
-            <figcaption></figcaption>
+            <a href="eventos-y-actividades-culturales.php"><img src="images/cara-o-sello.jpg" alt="Imagen de cara o sello"></a>
+            <figcaption>Talleres</figcaption>
         </figure>
-
     </div>
 </main>

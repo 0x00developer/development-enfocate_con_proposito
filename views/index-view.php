@@ -8,7 +8,7 @@
         <p>ORIENTAMOS A LAS NUEVAS GENERACIONES QUE NO TIENEN UN HORIZONTE CLARO Y LAS AYUDAMOS A QUE
             CONSTRUYAN VIDAS CON SIGNIFICADO.</p>
         <div class="homeCmf">
-            <a href=""><img src="images/enfocate-con-proposito-sec.png" alt="enfocate con proposito"></a>
+            <a href="que-hacemos.php"><img src="images/enfocate-con-proposito-sec.png" alt="enfocate con proposito"></a>
         </div>
     </div>
     <div class="homeA">
@@ -16,7 +16,7 @@
             <p>ORIENTAMOS A LAS NUEVAS GENERACIONES QUE NO TIENEN UN HORIZONTE CLARO Y LAS AYUDAMOS A QUE
                 CONSTRUYAN VIDAS CON SIGNIFICADO.</p>
             <div class="homeC">
-                <a href=""><img src="images/enfocate-con-proposito-sec.png" alt="enfocate con proposito"></a>
+                <a href="que-hacemos.php"><img src="images/enfocate-con-proposito-sec.png" alt="enfocate con proposito"></a>
             </div>
         </div>
     </div>
