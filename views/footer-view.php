@@ -18,9 +18,8 @@
         <p><a href="developing.php">Pólitica de Privacidad</a></p>
     </div>
 </footer>
-<div class="webmaster">
-    <p>Development by:&nbsp;<a href="https://tecnoayuda.co" target="_blank">Javier Andrés&nbsp;|&nbsp;tecnoayuda.co</a>
-    </p>
+<div class="development">
+    <p>development:&nbsp;<a href="https://tecnoayuda.co" target="_blank">&nbsp;tecnoayuda.co&nbsp;</a></p>
 </div>
 <script src="scripts/jquery-3.4.0.min.js"></script>
 <script src="scripts/modernizr-custom.js"></script>

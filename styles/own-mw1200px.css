@@ -58,9 +58,4 @@
         flex-direction: row;
         justify-content: space-around;
     }
-
-    /* WEBMASTER */
-    .webmaster p {
-        font-size: 12px;
-    }
 }

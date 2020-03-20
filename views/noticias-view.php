@@ -13,6 +13,8 @@
         </p>
         <p><cite>"vale la pena decirle un SI a la vida así pasemos
             por grandes tormentas o crisis"</cite>.<br>Diego Armando Díaz Rincón</p>
+        <br>
+        <strong class="subtitle"><a href="prevencion-covid-19.php">Prevención COVID-19</a></strong>
     </section>
     <figure>
         <img src="images/dia-mundial-de-la-prevencion-del-suicidio.jpg" alt="Dí mundial de la prevención del suicidio">

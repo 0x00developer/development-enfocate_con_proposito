@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/own-mw768px.css">
     <link rel="stylesheet" href="styles/own-mw1024px.css">
     <link rel="stylesheet" href="styles/own-mw1200px.css">
+    <link rel="stylesheet" href="styles/development.css">
 </head>
 
 <body>

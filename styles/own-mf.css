@@ -347,36 +347,3 @@ img {
 .primaryFooter a:hover {
     color: var(--primaryColor);
 }
-
-/* WEBMASTER */
-.webmaster {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: center;
-    background-color: transparent;
-}
-
-.webmaster p {
-    order: 0;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    font-family: Helvetica;
-    font-weight: lighter;
-    font-size: 10px;
-    color: #9f9f9f;
-}
-
-.webmaster a {
-    color: #387ca6;
-    text-decoration: none;
-    margin-right: 16px;
-}
-
-.webmaster a:hover {
-    border-bottom: 1px solid #04a5f0;
-}
