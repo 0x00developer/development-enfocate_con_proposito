@@ -1,0 +1,134 @@
+@media screen and (min-width: 1024px) {
+
+    /* GENERAL */
+    .title {
+        font-size: 3rem;
+    }
+
+    /* HEADER */
+    .primaryHeader figure {
+        margin-left: 2rem;
+    }
+
+    .primaryHeader nav .menuB {
+        font-size: 2rem;
+    }
+
+    .primaryHeader nav .menuB a {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    .primaryHeader nav .menuB img {
+        width: 2rem;
+    }
+
+    .primaryHeader nav .menuB span {
+        font-size: 1.2rem;
+    }
+
+    .primaryHeader nav .menuB span a {
+        padding: 1rem 2rem;
+    }
+
+    /* MAIN */
+    .homeA {
+        height: 64rem;
+        padding-top: 32rem;
+    }
+
+    .homeB {
+        width: 26rem;
+        height: 22rem;
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+
+    .homeC {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .secondaryMain p {
+        font-size: 1.2rem;
+        letter-spacing: 1.2px;
+        line-height: 1.2;
+    }
+
+    /* CONTAINERS */
+    .containerA,
+    .containerB {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .containerA section,
+    .containerA figure {
+        width: 50%;
+    }
+    .containerB section {
+        width: 100%;
+    }
+    .containerB {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .containerC .title {
+        padding-right: 4rem;
+    }
+    .conImages {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .conImages figure {
+        width: 45%;
+    }
+    .conVideos {
+        margin: auto;
+    }
+    .con-video {
+        position: static;
+        overflow: visible;
+      width: 640px;
+      height: 360px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    .con-video iframe {
+  position: static;
+}
+    /* WHAT WE DO */
+    .what-we-do {
+        margin-top: 0;
+    }
+    .what-we-do figure {
+        width: 75%;
+    }
+
+    .what-we-do p {
+        font-size: 1.7rem;
+        text-shadow: 4px 4px 8px #000, 8px 8px 8px #000;
+    }
+
+    /* LIFE */
+    .life figure,
+    .news figure {
+        padding: 4rem;
+    }
+
+    .life a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .life a:hover {
+        color: var(--primaryColor);
+    }
+
+    /* DEVELOPING */
+    .developing {
+        padding: 10rem;
+        font-size: 1.5rem;
+    }
+}

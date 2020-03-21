@@ -1,0 +1,141 @@
+@media screen and (min-width: 768px) {
+
+    /* HEADER */
+    .primaryHeader {
+        display: block;
+    }
+
+    .primaryHeader figure {
+        margin-top: 4rem;
+        margin-left: 4rem;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .primaryHeader nav .btnShowMenu,
+    .primaryHeader nav .menuA {
+        display: none;
+    }
+
+    .primaryHeader nav .menuB {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000000;
+        font-family: "Raleway-ExtraBold";
+        color: var(--primaryColor);
+        font-size: 1.5rem;
+    }
+
+    .primaryHeader nav .menuB a {
+        color: var(--secondaryColor);
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 0.4rem;
+    }
+
+    .primaryHeader nav .menuB a:hover {
+        color: var(--primaryColor);
+    }
+
+    .primaryHeader nav .menuB img {
+        width: 1.5rem;
+    }
+
+    .primaryHeader nav .menuB span {
+        font-size: 1.1rem;
+    }
+
+    .primaryHeader nav .menuB span a {
+        background-color: var(--primaryColor);
+        color: var(--secondaryColor);
+        padding: 0.6rem;
+    }
+
+    .primaryHeader nav .menuB span a:hover {
+        background-color: var(--secondaryColor);
+        color: var(--primaryColor);
+    }
+
+    /* MAIN */
+    .primaryMain {
+        display: block;
+    }
+
+    .homeAmf,
+    .homeBmf,
+    .homeCmf {
+        display: none;
+    }
+
+    .homeA {
+        display: block;
+        height: 48rem;
+        background-image: url("../images/enfocate-con-proposito-charla.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 24rem;
+    }
+
+    .homeB {
+        display: block;
+        width: 20rem;
+        height: 20rem;
+        font-size: 1.2rem;
+        padding: 2rem;
+        border-bottom: 1rem solid #e22413;
+        margin-left: 4rem;
+    }
+
+    .homeC {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .secondaryMain p {
+        font-size: 1.1rem;
+        letter-spacing: 1.1px;
+        line-height: 1.1;
+    }
+
+    /* CONTAINERS */
+    .containerA section,
+    .containerB section {
+        padding: 6rem 2rem 0 2rem;
+    }
+    .containerC .title {
+        text-align: right;
+        padding-right: 2rem;
+    }
+    /* LIFE */
+    .life figure,
+    .news figure {
+        padding: 0 2rem;
+    }
+
+    /* WHAT WE DO */
+
+    .what-we-do {
+        margin-top: 4rem;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .what-we-do figure {
+        width: 80%;
+    }
+
+    .what-we-do p {
+        font-size: 1.6rem;
+    }
+
+    /* DEVELOPING */
+    .developing {
+        padding: 8rem;
+        font-size: 1.4rem;
+    }
+}
