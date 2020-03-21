@@ -103,6 +103,10 @@
     }
 
     /* CONTAINERS */
+    .containerB {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .containerA section,
     .containerB section {
         padding: 6rem 2rem 0 2rem;
@@ -110,6 +114,16 @@
     .containerC .title {
         text-align: right;
         padding-right: 2rem;
+    }
+    .containerA figure {
+        margin-top: 1rem;
+    }
+    .containerB .conImages {
+        width: 100%;
+        flex-direction: row;
+    }
+    .containerB figure {
+        width: 50%;
     }
     /* LIFE */
     .life figure,

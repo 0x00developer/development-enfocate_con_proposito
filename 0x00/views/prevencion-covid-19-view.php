@@ -2,6 +2,7 @@
     <section>
         <h2 class="title">Prevención COVID-19</h2>
         <p>Compartimos información útil para cuidar de ti y los tuyos.</p>
+        <p>Da click en la imagen y podrás ver y\o descargar un archivo en PDF con toda la info.</p>
     </section>
     <div class="conImages">
         <a href="docs/covid19-unicef.pdf">
