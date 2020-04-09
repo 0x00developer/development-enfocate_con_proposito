@@ -1,8 +1,7 @@
-# Fundación Enfócate con propósito
+# Fundación enfócate con propósito
 development-enfocate_con_proposito
 
-## :copyright:
-**[ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org/)**
+## :copyright: **[ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org/)**
 Diego Armando Díaz Rincón
 
 ## 0x00 - Stack
