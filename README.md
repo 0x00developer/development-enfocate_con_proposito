@@ -4,8 +4,8 @@ development-enfocate_con_proposito
 ## :copyright: **[ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org/)**
 Diego Armando Díaz Rincón
 
-## Desarrollos
-###### * [x] 0x00
+## Trabajos
+* [x] 0x00
 
 ## Developer
 Javier Andrés Garzón Patarroyo
