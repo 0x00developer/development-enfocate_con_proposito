@@ -79,10 +79,10 @@
     }
     .conImages {
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .conImages figure {
-        width: 45%;
+        width: 33%;
     }
     .conVideos {
         margin: auto;

@@ -1,4 +1,12 @@
 <main class="secondaryMain containerA">
+        <section>
+            <h2 class="title">noticias</h2>
+            <p></p>
+            <strong class="subtitle"><a href="prevencion-covid-19.php">Prevención COVID-19</a></strong>
+        </section>
+        <figure>
+            <img src="images/camapaña-escudo-salvavidas-01.png" alt="Imagen campaña escudo salvavidas">
+        </figure>
     <section>
         <h2 class="title">noticias</h2>
         <p>La Fundación Enfócate con Propósito tiene el privilegio de compartir un espacio de formación en ventas a
@@ -12,7 +20,6 @@
         <br>
         <p>Diego Armando Díaz Rincón</p>
         <br>
-        <strong class="subtitle"><a href="prevencion-covid-19.php">Prevención COVID-19</a></strong>
     </section>
     <figure>
         <img src="images/webinar01-cesar-lozano.jpg" alt="Webinar con César Lozano">
