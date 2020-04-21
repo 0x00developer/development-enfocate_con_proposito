@@ -7,7 +7,7 @@
     <div class="conImages">
         <a href="docs/instructivo-escudo-salvavidas.pdf" target="_blank">
             <figure>
-                <img src="images/camapaña-escudo-salvavidas-02.png" alt="Imagen campaña escudo salvavidas">
+                <img src="images/campaña-escudo-salvavidas-02.png" alt="Imagen campaña escudo salvavidas">
                 <figcaption>Instructivo</figcaption>
             </figure>
         </a>
