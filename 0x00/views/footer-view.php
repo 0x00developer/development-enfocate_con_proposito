@@ -19,7 +19,7 @@
     </div>
 </footer>
 <div class="development">
-    <p>development:&nbsp;<a href="https://tecnoayuda.co" target="_blank">&nbsp;tecnoayuda.co&nbsp;</a></p>
+    <p>development:&nbsp;<a href="https://github.com/javierandresgp" target="_blank">&nbsp;Javier Andrés&nbsp;</a></p>
 </div>
 <script src="scripts/jquery-3.4.0.min.js"></script>
 <script src="scripts/modernizr-custom.js"></script>
