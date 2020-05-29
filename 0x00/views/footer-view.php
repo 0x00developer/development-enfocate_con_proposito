@@ -15,12 +15,9 @@
         <p>Calle 54 # 34 - 05 Sur Bogotá, Colombia</p>
     </address>
     <div>
-        <p><a href="developing.php">Pólitica de Privacidad</a></p>
+        <p><a href="developing.php">Pólitica de Privacidad</a>&nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;<a href="sitemap.php">Mapa del sitio</a></p>
     </div>
 </footer>
-<div class="development">
-    <p>development:&nbsp;<a href="https://github.com/javierandresgp" target="_blank">&nbsp;Javier Andrés&nbsp;</a></p>
-</div>
 <script src="scripts/jquery-3.4.0.min.js"></script>
 <script src="scripts/modernizr-custom.js"></script>
 <script src="https://kit.fontawesome.com/0f14489e55.js"></script>
