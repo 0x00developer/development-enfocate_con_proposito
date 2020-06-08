@@ -15,7 +15,10 @@
         <p>Calle 54 # 34 - 05 Sur Bogotá, Colombia</p>
     </address>
     <div>
-        <p><a href="developing.php">Pólitica de Privacidad</a>&nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;<a href="sitemap.php">Mapa del sitio</a></p>
+        <p><a href="politica-de-privacidad.php">Política de Privacidad</a></p>
+        <p><a href="docs/informe-de-gestion-fecp-2020vf.pdf">Informe de gestión</a></p>
+        <p><a href="sitemap.php">Mapa del sitio</a></p>
+        <p><a href="http://www.enfocateconproposito.org/webmail" target="_blank"><i class="fas fa-inbox"></i></a></p>
     </div>
 </footer>
 <script src="scripts/jquery-3.4.0.min.js"></script>

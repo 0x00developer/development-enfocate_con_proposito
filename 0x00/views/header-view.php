@@ -16,12 +16,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/ftw.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/own-mf.css">
-    <link rel="stylesheet" href="styles/own-mw480px.css">
-    <link rel="stylesheet" href="styles/own-mw768px.css">
-    <link rel="stylesheet" href="styles/own-mw1024px.css">
-    <link rel="stylesheet" href="styles/own-mw1200px.css">
-    <link rel="stylesheet" href="styles/development.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -36,18 +31,20 @@
                 <a href="index.php">Inicio</a>
                 <a href="quienes-somos.php">¿Quiénes Somos?</a>
                 <a href="que-hacemos.php">¿Qué Hacemos?</a>
+                <a href="herramientas.php">Herramientas</a>
                 <a href="vida.php">Vida</a>
                 <a href="noticias.php">Noticias</a>
-                <a href="developing.php"><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>
+                <!--<a href="developing.php"><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>-->
                 <!--<a href="">Donaciones</a>-->
             </div>
             <div class="menuB">
                 <a href="index.php">Inicio</a> |
                 <a href="quienes-somos.php">¿Quiénes Somos?</a> |
                 <a href="que-hacemos.php">¿Qué Hacemos?</a> |
+                <a href="herramientas.php">Herramientas</a> |
                 <a href="vida.php">Vida</a> |
-                <a href="noticias.php">Noticias</a> |
-                <a href="developing.php"><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>
+                <a href="noticias.php">Noticias</a>
+                <!--<a href="developing.php"><img src="images/enfocate-con-proposito-lupa.png" alt="Enfócate con propósito lupa"></a>-->
                 <!--<span><a href="">Donaciones</a></span>-->
             </div>
         </nav>
