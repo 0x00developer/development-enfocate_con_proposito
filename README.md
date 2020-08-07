@@ -1,12 +1,15 @@
-# Development - ENFÓCATE CON PRÓPOSITO
-:open_file_folder: development-enfocate_con_proposito
+# Development
+## ENFÓCATE CON PRÓPOSITO
+### :open_file_folder: development-enfocate_con_proposito
+
+## Description
+Website [FUNDACIÓN ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)  
+:copyright: Diego Armando Díaz Rincón
 
 ## Directories
-* [x] 0x00
+* [x] 0x00 v1
+* [ ] 0x01 v2
 
-## Developer
+## Software engineer
 Javier Andrés Garzón Patarroyo  
-:octocat: [GitHub](https://github.com/javierandresgp/)  
-:link: [Linkedin](https://www.linkedin.com/in/javierandresgp/)  
-:link: [Twitter](https://twitter.com/javierandresgp0)  
-:man_technologist: :books: :computer: :globe_with_meridians:
+:octocat: [GitHub](https://github.com/javierandresgp/)

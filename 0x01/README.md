@@ -1,9 +1,9 @@
 # Development
 ## ENFÓCATE CON PRÓPOSITO
-### :open_file_folder: development-enfocate_con_proposito/0x00/
+### :open_file_folder: development-enfocate_con_proposito/0x01/
 
 ## Description
-v1 Website [FUNDACIÓN ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)  
+v2 Website [FUNDACIÓN ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)  
 :copyright: Diego Armando Díaz Rincón
 
 ## Stack
@@ -13,7 +13,7 @@ v1 Website [FUNDACIÓN ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito
 * [X] PHP
 
 ## Date (MM/DD/YY)
-12/04/2019
+
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
