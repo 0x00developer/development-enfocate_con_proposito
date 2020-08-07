@@ -3,7 +3,7 @@
 ### :open_file_folder: development-enfocate_con_proposito
 
 ## Description
-Website [FUNDACIÓN ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)  
+Website [ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)  
 :copyright: Diego Armando Díaz Rincón
 
 ## Directories
