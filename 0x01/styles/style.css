@@ -211,6 +211,11 @@ a:active {
   font-family: var(--fontFamilyBase);
   font-size: var(--fontSizeMedium);
 }
+/* ABOUT US */
+.about-image {
+  width: 100%;
+  margin: 0;
+}
 /* 5. ASIDE */
 .aside {
 }
