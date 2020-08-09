@@ -17,7 +17,7 @@
 /* Reset / Normalize */
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
+  font-size: 16px;
 }
 *,
 *:before,
@@ -65,11 +65,11 @@ a:active {
   --fontFamilyBase: "Raleway", Helvetica, Arial, sans-serif;
   --fontFamilyTitle: "Raleway", Helvetica, Arial, sans-serif;
   --fontFamilyAux: "Anton", Helvetica, Arial, sans-serif;
-  --fontSizeSmall: 1.2rem;
-  --fontSizeMedium: 1.6rem;
-  --fontSizeLarge: 1.8rem;
-  --fontSizeXlarge: 2.3rem;
-  --fontSizeXxLarge: 4.8rem;
+  --fontSizeSmall: 0.8rem;
+  --fontSizeMedium: 1rem;
+  --fontSizeLarge: 1.4rem;
+  --fontSizeXlarge: 1.8rem;
+  --fontSizeXxLarge: 2rem;
   --fontWeightRegular: 400;
   --fontWeightBold: 700;
   --lineHeightSmall: 1.2;
@@ -87,6 +87,7 @@ a:active {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  box-shadow: 0px 4px 4px 0px var(--darkGreyColor);
 }
 .nav {
   width: 50%;
@@ -98,7 +99,7 @@ a:active {
 }
 .btn-nav .fas {
   color: var(--primaryColor);
-  font-size: var(--fontSizeXlarge);
+  font-size: var(--fontSizeLarge);
 }
 .nav-links-mf {
   width: 50%;
@@ -126,7 +127,7 @@ a:active {
   justify-content: flex-end;
 }
 .social-nav .fab {
-  font-size: var(--fontSizeXlarge);
+  font-size: var(--fontSizeLarge);
   padding: 1rem;
 }
 .social-link {
@@ -137,7 +138,7 @@ a:active {
 }
 /* LOGO */
 .logo {
-  width: 40vw;
+  width: 16rem;
 }
 @media screen and (min-width: 768px) {
   /* 3. HEADER */
@@ -145,53 +146,66 @@ a:active {
   .btn-nav {
     display: none;
   }
+  .nav {
+    width: 70%;
+  }
   .nav-links {
     display: flex;
-    justify-content: space-around;
   }
   .nav-link {
-    align-self: center;
-    font-family: var(--fontFamilyBase);
-    font-size: var(--fontSizeLarge);
+    font-size: var(--fontSizeSmall);
     color: var(--lightTextColor);
-    padding: 1rem;
   }
   .nav-link:hover {
     color: var(--primaryColor);
   }
-  /* LOGO */
-  .logo {
-    width: 30vw;
+  .pleca {
+    border-left: 4px solid var(--primaryColor);
+    border-right: 4px solid var(--primaryColor);
+    padding: 0 0.5rem;
+  }
+  .social-nav {
+    width: 30%;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1024px) {
   /* 3. HEADER */
-  /* LOGO */
-  .logo {
-    width: 26vw;
+  /* MENU */
+  .nav-link {
+    font-size: var(--fontSizeLarge);
   }
 }
 @media screen and (min-width: 1200px) {
-  /* 3. HEADER */
-  /* LOGO */
-  .logo {
-    width: 20vw;
-  }
 }
 /* 4. MAIN */
 .main {
   background-color: var(--whiteColor);
   color: var(--darkTextColor);
+}
+.intro {
+  width: 100%;
+  margin: 0;
+}
+.section {
   padding: 1rem;
 }
-.section {}
 .section-title {
   font-family: var(--fontFamilyTitle);
   font-size: var(--fontSizeXlarge);
+  font-weight: var(--fontWeightBold);
+  line-height: var(--lineHeightBig);
+  text-decoration: underline;
+  text-decoration-color: var(--primaryColor);
+  text-transform: capitalize;
+  text-align: center;
 }
 .section-subtitle {
   font-family: var(--fontFamilyTitle);
   font-size: var(--fontSizeLarge);
+  font-weight: var(--fontWeightBold);
+  line-height: var(--lineHeightBase);
+  text-transform: capitalize;
 }
 .section-text {
   font-family: var(--fontFamilyBase);
@@ -202,30 +216,48 @@ a:active {
 }
 /* 6. FOOTER */
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 1rem;
+  color: var(--lightTextColor);
   font-family: var(--fontFamilyBase);
-  font-size: var(--fontSizeMedium);
-  line-height: var(--lineHeightBig);
-  color: var(--lightTextColor);
+  font-size: var(--fontSizeSmall);
+  line-height: var(--lineHeightSmall);
+  box-shadow: 0px -4px 4px 0px var(--darkGreyColor);
 }
-.footer .address {
-  text-align: center;
+.footer-logo {
+  width: 8rem;
+  margin-left: 0;
 }
-.legal-nav {
+.foot {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
-.legal-link {
+.foot-links {
+  display: flex;
+  justify-content: space-around;
+}
+.foot-link {
   color: var(--lightTextColor);
 }
-.legal-link:hover {
+.foot-link:hover {
   color: var(--primaryColor);
 }
-.footer .copyright {
-  font-family: var(--fontFamilyBase);
+@media screen and (min-width: 768px) {
+  .foot {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: baseline;
+  }
+  .foot-copyright {
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 1;
+  }
+  .foot-links {
+    order: 1;
+    align-self: flex-end;
+    flex-grow: 1;
+  }
 }
 /*
 @media screen and (min-width: 768px) {}
