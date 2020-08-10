@@ -212,9 +212,45 @@ a:active {
   font-size: var(--fontSizeMedium);
 }
 /* ABOUT US */
-.about-image {
+.about-us-image {
   width: 100%;
   margin: 0;
+}
+/* WHAT WE DO */
+.what-we-do-image {
+  width: 100%;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  /* 4. MAIN */
+  .section-text {
+    font-size: var(--fontSizeLarge);
+  }
+  /* ABOUT US */
+  .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-us-image {
+    width: 40%;
+  }
+  .about-us-text {
+    width: 58%;
+  }
+  /* WHAT WE DO */
+  .what-we-do {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .what-we-do-image {
+    width: 40%;
+  }
+  .what-we-do-subtitle {}
+  .what-we-do-text {
+    width: 58%;
+  }
 }
 /* 5. ASIDE */
 .aside {
@@ -247,6 +283,7 @@ a:active {
   color: var(--primaryColor);
 }
 @media screen and (min-width: 768px) {
+  /* FOOTER */
   .foot {
     flex-direction: row;
     justify-content: space-between;
