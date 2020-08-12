@@ -1,23 +1,60 @@
 /* SUMMARY
- 1. GLOBAL
-     Reset / Normalize
-     VARIABLES
-     FONTS
- 2. GENERAL
- 3. HEADER
-     MENU
-     SOCIAL
-     LOGO
- 4. MAIN
-     SECTION
- 5. ASIDE
- 6. FOOTER
+ ================
+  1. GLOBAL
+    Reset / Normalize
+    FONTS
+    VARIABLES
+    TAGS
+  2. GENERAL
+  3. HEADER
+    MENU
+    SOCIAL
+    LOGO
+  4. MAIN
+    SECTION
+  5. ASIDE
+  6. FOOTER
+ ================
 */
-/* 1. GLOBAL */
+/* 1. GLOBAL
+================ */
 /* Reset / Normalize */
+/* FONTS */
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Anton";
+  src: url(../fonts/Anton-Regular.ttf);
+}
+/* VARIABLES */
+:root {
+  --primaryColor: #e22413;
+  --secondaryColor: #e2e2e1;
+  --whiteColor: #ffffff;
+  --greyColor: #353535;
+  --blackColor: #090909;
+  --lightTextColor: var(--secondaryColor);
+  --darkTextColor: var(--greyColor);
+  --fontFamilyBase: "Raleway", Helvetica, Arial, sans-serif;
+  --fontFamilyTitle: "Raleway", Helvetica, Arial, sans-serif;
+  --fontFamilyAux: "Anton", Helvetica, Arial, sans-serif;
+  --fontSizeSmall: 1.2rem;
+  --fontSizeMedium: 1.6rem;
+  --fontSizeLarge: 1.8rem;
+  --fontSizeXlarge: 2.3rem;
+  --fontSizeXxLarge: 4.8rem;
+  --fontWeightRegular: 400;
+  --fontWeightBold: 700;
+  --lineHeightSmall: 1.2;
+  --lineHeightBase: 1.5;
+  --lineHeightBig: 1.8;
+}
+/* TAGS */
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
+  font-size: 60%;
 }
 *,
 *:before,
@@ -29,6 +66,10 @@ body {
 }
 img {
   width: 100%;
+}
+button {
+  background: none;
+  border: none;
 }
 a:link {
   text-decoration: none;
@@ -43,58 +84,43 @@ a:hover {
 a:active {
   background-color: var(--secondaryColor);
 }
-/* FONTS */
-@font-face {
-  font-family: "Anton";
-  src: url(../fonts/Anton-Regular.ttf);
+@media (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
 }
-@font-face {
-  font-family: "Raleway";
-  src: url(../fonts/Raleway-Regular.ttf);
+@media (min-width: 1024px) {
+  html {
+    font-size: 65%;
+  }
 }
-/* VARIABLES */
-:root {
-  --primaryColor: #e22413;
-  --secondaryColor: #e2e2e1;
-  --whiteColor: #ffffff;
-  --lightGreyColor: #f3f3f3;
-  --darkGreyColor: #353535;
-  --blackColor: #090909;
-  --lightTextColor: var(--secondaryColor);
-  --darkTextColor: var(--darkGreyColor);
-  --fontFamilyBase: "Raleway", Helvetica, Arial, sans-serif;
-  --fontFamilyTitle: "Raleway", Helvetica, Arial, sans-serif;
-  --fontFamilyAux: "Anton", Helvetica, Arial, sans-serif;
-  --fontSizeSmall: 0.8rem;
-  --fontSizeMedium: 1rem;
-  --fontSizeLarge: 1.4rem;
-  --fontSizeXlarge: 1.8rem;
-  --fontSizeXxLarge: 2rem;
-  --fontWeightRegular: 400;
-  --fontWeightBold: 700;
-  --lineHeightSmall: 1.2;
-  --lineHeightBase: 1.5;
-  --lineHeightBig: 1.8;
+@media (min-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
 }
-/* 2. GENERAL */
+/* 2. GENERAL
+================ */
 .hidden {
   display: none;
 }
-/* 3. HEADER */
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+@media (min-width: 1200px) {}
+/* 3. HEADER
+================ */
 /* MENU */
 .header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  box-shadow: 0px 4px 4px 0px var(--darkGreyColor);
+  box-shadow: 0px 4px 4px 0px var(--greyColor);
 }
 .nav {
   width: 50%;
 }
 .btn-nav {
-  background: none;
-  border: none;
   padding: 1rem;
 }
 .btn-nav .fas {
@@ -131,7 +157,7 @@ a:active {
   padding: 1rem;
 }
 .social-link {
-  color: var(--lightTextColor);
+  color: var(--secondaryColor);
 }
 .social-link:hover {
   color: var(--primaryColor);
@@ -140,53 +166,78 @@ a:active {
 .logo {
   width: 16rem;
 }
-@media screen and (min-width: 768px) {
-  /* 3. HEADER */
+@media (min-width: 768px) {
   /* MENU */
   .btn-nav {
     display: none;
   }
   .nav {
-    width: 70%;
+    width: 75%;
   }
   .nav-links {
     display: flex;
   }
   .nav-link {
-    font-size: var(--fontSizeSmall);
     color: var(--lightTextColor);
   }
   .nav-link:hover {
     color: var(--primaryColor);
   }
   .pleca {
-    border-left: 4px solid var(--primaryColor);
-    border-right: 4px solid var(--primaryColor);
-    padding: 0 0.5rem;
+    border-left: .2rem solid var(--primaryColor);
+    border-right: .2rem solid var(--primaryColor);
+    padding: 0 1rem;
   }
+  /* SOCIAL */
   .social-nav {
-    width: 30%;
+    width: 25%;
     justify-content: space-around;
   }
-}
-@media screen and (min-width: 1024px) {
-  /* 3. HEADER */
-  /* MENU */
-  .nav-link {
-    font-size: var(--fontSizeLarge);
+  /* LOGO */
+  .logo {
+    width: 18rem;
   }
 }
-@media screen and (min-width: 1200px) {
+@media (min-width: 1024px) {
+  /* MENU */
+  .nav {
+    width: 80%;
+  }
+  /* SOCIAL */
+  .social-nav {
+    width: 20%;
+  }
+  /* LOGO */
+  .logo {
+    width: 19rem;
+  }
 }
-/* 4. MAIN */
+@media (min-width: 1200px) {
+  /* MENU */
+  .nav {
+    width: 85%;
+  }
+  /* SOCIAL */
+  .social-nav {
+    width: 15%;
+  }
+  /* LOGO */
+  .logo {
+    width: 20rem;
+  }
+}
+/* 4. MAIN
+================ */
 .main {
   background-color: var(--whiteColor);
   color: var(--darkTextColor);
 }
+/* INTRO */
 .intro {
   width: 100%;
   margin: 0;
 }
+/* SECTION */
 .section {
   padding: 1rem;
 }
@@ -206,63 +257,76 @@ a:active {
   font-weight: var(--fontWeightBold);
   line-height: var(--lineHeightBase);
   text-transform: capitalize;
+  border-left: .5rem solid var(--primaryColor);
+  padding-left: .5rem;
 }
 .section-text {
   font-family: var(--fontFamilyBase);
   font-size: var(--fontSizeMedium);
 }
 /* ABOUT US */
-.about-us-image {
-  width: 100%;
-  margin: 0;
-}
 /* WHAT WE DO */
-.what-we-do-image {
-  width: 100%;
-  margin: 0;
-}
-@media screen and (min-width: 768px) {
-  /* 4. MAIN */
-  .section-text {
-    font-size: var(--fontSizeLarge);
-  }
+@media (min-width: 768px) {
   /* ABOUT US */
   .about-us {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   .about-us-image {
     width: 40%;
   }
   .about-us-text {
-    width: 58%;
+    width: 60%;
+    padding-left: 1rem;
   }
   /* WHAT WE DO */
+  .what-we-do-group {
+    display: flex;
+    flex-direction: column;
+  }
   .what-we-do {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   .what-we-do-image {
     width: 40%;
   }
-  .what-we-do-subtitle {}
   .what-we-do-text {
-    width: 58%;
+    width: 60%;
+    padding-left: 1rem;
   }
 }
-/* 5. ASIDE */
-.aside {
+@media (min-width: 1024px) {
+  /* WHAT WE DO */
+  .what-we-do-group {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .what-we-do {
+    flex-direction: column;
+    align-items: center;
+  }
+  .what-we-do-image {
+    width: 100%;
+  }
+  .what-we-do-text {
+    width: 100%;
+  }
 }
-/* 6. FOOTER */
+@media (min-width: 1200px) {}
+/* 5. ASIDE
+================ */
+.aside {}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+@media (min-width: 1200px) {}
+/* 6. FOOTER
+================ */
 .footer {
   padding: 1rem;
   color: var(--lightTextColor);
   font-family: var(--fontFamilyBase);
   font-size: var(--fontSizeSmall);
   line-height: var(--lineHeightSmall);
-  box-shadow: 0px -4px 4px 0px var(--darkGreyColor);
+  box-shadow: 0px -4px 4px 0px var(--greyColor);
 }
 .footer-logo {
   width: 8rem;
@@ -282,8 +346,7 @@ a:active {
 .foot-link:hover {
   color: var(--primaryColor);
 }
-@media screen and (min-width: 768px) {
-  /* FOOTER */
+@media (min-width: 768px) {
   .foot {
     flex-direction: row;
     justify-content: space-between;
@@ -301,8 +364,5 @@ a:active {
     flex-grow: 1;
   }
 }
-/*
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 1024px) {}
-@media screen and (min-width: 1200px) {}
-*/
+@media (min-width: 1024px) {}
+@media (min-width: 1200px) {}
