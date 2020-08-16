@@ -15,7 +15,6 @@ v2 Website [ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)
 
 ## Date (MM/DD/YY)
 
-
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
 :octocat: [GitHub](https://github.com/javierandresgp/)
