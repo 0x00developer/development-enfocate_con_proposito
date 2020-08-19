@@ -7,7 +7,9 @@ v2 Website [ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)
 :copyright: Diego Armando Díaz Rincón
 
 ## Stack
-* [x] WORDPRESS
+* [x] HTML
+* [X] CSS
+Template for Wordpress
 
 ## Date (MM/DD/YY)
 
