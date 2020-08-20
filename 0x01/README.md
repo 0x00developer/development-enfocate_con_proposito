@@ -9,7 +9,9 @@ v2 Website [ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)
 ## Stack
 * [x] HTML
 * [X] CSS
-Template for Wordpress
+* [X] JAVASCRIPT
+* [X] PHP
+Theme for Wordpress v1.0
 
 ## Date (MM/DD/YY)
 
