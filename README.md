@@ -8,7 +8,7 @@ Website [ENFÓCATE CON PROPÓSITO](http://www.enfocateconproposito.org)
 ## Directories
 * 0x00 v1 (PHP)
 * 0x01 v2 (Theme for WordPress)
-* 0x02 v3 WordPress, React
+* 0x02 v3 React
 
 ## Software engineer
 [Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com/)
