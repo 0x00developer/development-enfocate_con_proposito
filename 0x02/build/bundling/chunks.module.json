@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "ac4bb3dfc5df5333c8b6",
+  "publicPath": "/static/",
+  "outputPath": "C:\\xampp\\htdocs\\GitHub\\development-enfocate_con_proposito\\0x02\\build\\static",
+  "assetsByChunkName": {
+    "0x02": "0x02.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "0x02.module.js",
+      "size": 6429384,
+      "chunks": [
+        "0x02"
+      ],
+      "chunkNames": [
+        "0x02"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47657,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "0x02": {
+      "chunks": [
+        "0x02"
+      ],
+      "assets": [
+        "0x02.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "0x02": {
+      "chunks": [
+        "0x02"
+      ],
+      "assets": [
+        "0x02.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "0x02",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1659537,
+      "names": [
+        "0x02"
+      ],
+      "files": [
+        "0x02.module.js"
+      ],
+      "hash": "e171ac28751088e44988",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 30480,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "be9902c4e29292f7b1b7",
+      "siblings": [],
+      "parents": [
+        "0x02"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
