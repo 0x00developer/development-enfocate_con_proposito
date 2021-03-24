@@ -1,57 +1,36 @@
 const settings = {
-  "name": "0x02",
-  "state": {
-    "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
-    }
+  name: "0x02",
+  state: {
+    frontity: {
+      url: "http://localhost/wordpress/",
+      title: "Test",
+      description: "Testing",
+    },
   },
-  "packages": [
+  packages: [
     {
-      "name": "@frontity/mars-theme",
-      "state": {
-        "theme": {
-          "menu": [
-            [
-              "Home",
-              "/"
-            ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
-          ],
-          "featured": {
-            "showOnList": false,
-            "showOnPost": false
-          }
-        }
-      }
+      name: "@frontity/mars-theme",
+      state: {
+        theme: {
+          menu: [["Home", "/"]],
+          featured: {
+            showOnList: false,
+            showOnPost: false,
+          },
+        },
+      },
     },
     {
-      "name": "@frontity/wp-source",
-      "state": {
-        "source": {
-          "url": "https://test.frontity.org"
-        }
-      }
+      name: "@frontity/wp-source",
+      state: {
+        source: {
+          url: "http://localhost/wordpress/",
+        },
+      },
     },
     "@frontity/tiny-router",
-    "@frontity/html2react"
-  ]
+    "@frontity/html2react",
+  ],
 };
 
 export default settings;
